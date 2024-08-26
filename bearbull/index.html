@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    body {
+      background: #131313;
+    }
+
+    .phone {
+      width: 100%;
+      height: 100vh;
+      margin: auto;
+    }
+
+    h1 {
+      margin: 0 auto;
+      font-weight: 500;
+      font-size: 33px;
+      color: #ccc;
+      text-transform: uppercase;
+    }
+
+    .image {
+      position: relative;
+      margin: 10px auto 0;
+    }
+
+    .bear {
+      position: absolute;
+      top: 0;
+      left: 87px;
+    }
+
+    .container {
+      display: flex;
+      gap: 14px;
+    }
+
+    .bull_btn {
+      background: red;
+      color: #ccc;
+      text-transform: uppercase;
+      padding: 10px 12px;
+      width: 180px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 18px;
+      box-shadow: inset 0 0 10px #fff;
+      justify-content: center;
+      display: flex;
+    }
+
+    .bear_btn {
+      background: green;
+      color: #ccc;
+      text-transform: uppercase;
+      padding: 10px 12px;
+      width: 180px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 18px;
+      box-shadow: inset 0 0 10px #fff;
+      justify-content: center;
+      display: flex;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEARBULL</title>
+</head>
+
+<body>
+  <div class="phone">
+    <h1>welcome to <span style="color: #906D4A;">bearbull</span></h1>
+    <div class="image">
+      <img class="bull" src="img/bull.svg" alt="">
+      <img class="bear" src="img/Subtract.svg" alt="">
+    </div>
+    <div class="container">
+      <a href="../bearbull/bearvalidate.html" class="bull_btn">Bull
+      </a>
+      <a href="../bearbull/bullvalidate.html" class="bear_btn">Bear
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

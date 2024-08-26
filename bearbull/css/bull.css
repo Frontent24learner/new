@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  -webkit-tab-highlight-color: transparent;
+}
+
+body {
+  background: #131313;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.pages {
+  padding: 15px;
+  display: flex;
+  overflow: hidden;
+  gap: 15px;
+  text-align: center;
+}
+
+.pages .item {
+  min-width: 100%;
+  color: #fff;
+  display: none;
+}
+
+.pages .item.active {
+  display: block;
+}
+
+.pages .item .name {
+  padding: 20px;
+  margin: 0 0 20px;
+  background: green;
+  color: #2c2c2c;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+}
+
+ul.menu {
+  width: 100%;
+  padding: 10px;
+  background: #202020;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+}
+
+ul.menu li {
+  width: 100%;
+}
+
+ul.menu li a {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+ul.menu li a i {
+  font-size: 20px;
+}
+
+ul.menu li a:hover {
+  color: green;
+}
+
+.count {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.sub_count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.subcontainer {
+  display: flex;
+  align-items: center;
+  margin: 30px auto 0;
+  gap: 20px;
+  justify-content: center;
+}
+
+.thecard {
+  width: 100%;
+  height: 100%;
+}
+
+.thefront {
+  width: 100%;
+  height: 100%;
+}
+
+.thefront:hover {
+  scale: 1.1;
+}
+
+.twobtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twobtn button {
+  border: none;
+  outline: none;
+  background: green;
+  width: 150px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px 12px;
+}
+
+.cardscap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto 120px;
+}
+
+.cardimg {
+  width: 47%;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.colo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.frin {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.many img {
+  width: 30px;
+  height: 30px;
+}
+
+.many {
+  margin-left: auto;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  gap: 5px;
+}
